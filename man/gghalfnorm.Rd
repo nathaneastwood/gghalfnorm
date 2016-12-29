@@ -22,6 +22,12 @@ gghalfnorm(x, nlab = 2, labs = as.character(seq_along(x)), repel = FALSE,
 \description{
 Produce a Half Normal Plot for a vector of residuals.
 }
+\examples{
+set.seed(100)
+gghalfnorm(x = rnorm(100), nlab = 10)
+gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE)
+
+}
 \seealso{
 \code{\link[stats]{qqnorm}}
 }

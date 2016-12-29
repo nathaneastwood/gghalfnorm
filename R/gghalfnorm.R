@@ -11,6 +11,11 @@
 #'
 #' @seealso \code{\link[stats]{qqnorm}}
 #'
+#' @examples
+#' set.seed(100)
+#' gghalfnorm(x = rnorm(100), nlab = 10)
+#' gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE)
+#'
 #' @importFrom stats qnorm
 #' @import ggplot2
 #' @import ggrepel
