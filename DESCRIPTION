@@ -1,7 +1,7 @@
 Package: gghalfnorm
 Type: Package
 Title: Create a Half Normal Plot Using ggplot2
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: person("Nathan", "Eastwood", , "nathan.eastwood@icloud.com",
     role = c("aut", "cre"))
 Description: Reproduce the halfnorm function found in the faraway package using
