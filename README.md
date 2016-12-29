@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Travis-CI Build Status](https://travis-ci.org/nathaneastwood/gghalfnorm.svg?branch=master)](https://travis-ci.org/nathaneastwood/gghalfnorm) [![codecov](https://codecov.io/gh/nathaneastwood/gghalfnorm/branch/master/graph/badge.svg)](https://codecov.io/gh/nathaneastwood/gghalfnorm)
 
 > Half-Normal Plots
 
