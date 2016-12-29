@@ -16,7 +16,7 @@ gghalfnorm(x = rnorm(100), nlab = 10)
 
 ![](README-non_repel-1.png)
 
-The package can also make use of the [ggrepel](https://github.com/slowkow/ggrepel) package.
+The function can also make use of the `geom_text_repel` function from the [ggrepel](https://github.com/slowkow/ggrepel) package.
 
 ``` r
 set.seed(123)

@@ -26,7 +26,7 @@ set.seed(123)
 gghalfnorm(x = rnorm(100), nlab = 10)
 ```
 
-The package can also make use of the [ggrepel](https://github.com/slowkow/ggrepel) package.
+The function can also make use of the `geom_text_repel` function from the [ggrepel](https://github.com/slowkow/ggrepel) package.
 
 ```{r repel}
 set.seed(123)
