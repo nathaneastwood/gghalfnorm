@@ -49,7 +49,8 @@ gghalfnorm <- function(x, nlab = 2, labs = as.character(seq_along(x)),
       geom_point(data = data[(n - nlab + 1):n, ],
                  aes_string(x = "x", y = "y")) +
       geom_text_repel(data = data[(n - nlab + 1):n, ],
-                      aes_string(x = "x", y = "y", label = "label"))
+                      aes_string(x = "x", y = "y", label = "label"),
+                      ...)
   } else {
     p +
       geom_text(data = data[(n - nlab + 1):n, ],

@@ -20,7 +20,7 @@ The function can also make use of the `geom_text_repel` function from the [ggrep
 
 ``` r
 set.seed(123)
-gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE)
+gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE, box.padding = unit(1, "lines"))
 ```
 
 ![](README-repel-1.png)

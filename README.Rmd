@@ -6,6 +6,7 @@ output: github_document
 
 ```{r setup, include = FALSE}
 library(gghalfnorm)
+library(ggrepel)
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -30,7 +31,7 @@ The function can also make use of the `geom_text_repel` function from the [ggrep
 
 ```{r repel}
 set.seed(123)
-gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE)
+gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE, box.padding = unit(1, "lines"))
 ```
 
 # Installation
