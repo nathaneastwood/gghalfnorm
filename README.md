@@ -28,7 +28,7 @@ gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE, box.padding = unit(1, "lines
 Installation
 ============
 
-The package is currently only available through CRAN. You can install the package with:
+The package is currently only available through GitHub. You can install the package with:
 
 ``` r
 install.packages("devtools")
