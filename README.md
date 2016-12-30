@@ -28,7 +28,13 @@ gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE, box.padding = unit(1, "lines
 Installation
 ============
 
-The package is currently only available through GitHub. You can install the package with:
+Install the latest stable release from CRAN:
+
+``` r
+install.packages("gghalfnorm")
+```
+
+Alternatively, install the latest development version from github:
 
 ``` r
 install.packages("devtools")
