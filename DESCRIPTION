@@ -1,11 +1,13 @@
 Package: gghalfnorm
 Type: Package
 Title: Create a Half Normal Plot Using 'ggplot2'
-Version: 1.1.1
+Version: 1.1.1.9000
 Authors@R: person("Nathan", "Eastwood", , "nathan.eastwood@icloud.com",
     role = c("aut", "cre"))
 Description: Reproduce the halfnorm() function found in the 'faraway' package 
     using the 'ggplot2' API.
+URL: https://github.com/nathaneastwood/gghalfnorm
+BugReports: https://github.com/nathaneastwood/gghalfnorm/issues
 Depends:
     R (>= 3.1.0)
 Imports:
