@@ -14,7 +14,7 @@ set.seed(123)
 gghalfnorm(x = rnorm(100), nlab = 10)
 ```
 
-![](README-non_repel-1.png)
+![](tools/images/README-non_repel-1.png)
 
 The function can also make use of the `geom_text_repel` function from the [ggrepel](https://github.com/slowkow/ggrepel) package.
 
@@ -23,7 +23,7 @@ set.seed(123)
 gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE, box.padding = unit(1, "lines"))
 ```
 
-![](README-repel-1.png)
+![](tools/images/README-repel-1.png)
 
 Installation
 ============

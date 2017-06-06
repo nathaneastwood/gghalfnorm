@@ -31,4 +31,3 @@ gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE)
 \seealso{
 \code{\link[stats]{qqnorm}}
 }
-
