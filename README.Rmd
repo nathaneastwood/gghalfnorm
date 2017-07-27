@@ -14,27 +14,15 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Travis-CI Build Status](https://travis-ci.org/nathaneastwood/gghalfnorm.svg?branch=master)](https://travis-ci.org/nathaneastwood/gghalfnorm) [![](http://www.r-pkg.org/badges/version/gghalfnorm)](http://www.r-pkg.org/pkg/gghalfnorm) [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/gghalfnorm)](http://www.r-pkg.org/pkg/remotes) [![codecov](https://codecov.io/gh/nathaneastwood/gghalfnorm/branch/master/graph/badge.svg)](https://codecov.io/gh/nathaneastwood/gghalfnorm)
+# gghalfnorm
 
 > Half-Normal Plots
 
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Travis-CI Build Status](https://travis-ci.org/nathaneastwood/gghalfnorm.svg?branch=master)](https://travis-ci.org/nathaneastwood/gghalfnorm) [![](http://www.r-pkg.org/badges/version/gghalfnorm)](http://www.r-pkg.org/pkg/gghalfnorm) [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/gghalfnorm)](http://www.r-pkg.org/pkg/remotes) [![codecov](https://codecov.io/gh/nathaneastwood/gghalfnorm/branch/master/graph/badge.svg)](https://codecov.io/gh/nathaneastwood/gghalfnorm)
+
 This package provides a wrapper around the [halfnorm](https://github.com/cran/faraway/blob/master/R/faraway.R#L78) function from the [faraway](https://github.com/cran/faraway) package using the ggplot2 API. The `gghalfnorm` function is the only function within the package. 
 
-# Usage
-
-```{r non_repel}
-set.seed(123)
-gghalfnorm(x = rnorm(100), nlab = 10)
-```
-
-The function can also make use of the `geom_text_repel` function from the [ggrepel](https://github.com/slowkow/ggrepel) package.
-
-```{r repel}
-set.seed(123)
-gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE, box.padding = unit(1, "lines"))
-```
-
-# Installation
+## Installation
 
 Install the latest stable release from CRAN:
 
@@ -47,4 +35,18 @@ Alternatively, install the latest development version from github:
 ```{r installGitHub, eval = FALSE}
 install.packages("devtools")
 devtools::install_github("nathaneastwood/gghalfnorm")
+```
+
+## Usage
+
+```{r non_repel}
+set.seed(123)
+gghalfnorm(x = rnorm(100), nlab = 10)
+```
+
+The function can also make use of the `geom_text_repel` function from the [ggrepel](https://github.com/slowkow/ggrepel) package.
+
+```{r repel}
+set.seed(123)
+gghalfnorm(x = rnorm(100), nlab = 10, repel = TRUE, box.padding = unit(1, "lines"))
 ```
